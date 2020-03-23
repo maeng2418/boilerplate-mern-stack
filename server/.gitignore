@@ -1,0 +1,5 @@
+# 폴더관리
+/node_modules
+
+# 파일관리
+/config/dev.js

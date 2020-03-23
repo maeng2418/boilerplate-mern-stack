@@ -1,0 +1,23 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "John Ahn's boilerplate clone  \r **참고 URL :** https://www.youtube.com/channel/UCFyXA9x8lpL3EYWeYhj4C4Q",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run backend --prefix server\" \"npm start --prefix client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maeng2418/boilerplate-mern-stack.git"
+  },
+  "author": "Aesop2418",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maeng2418/boilerplate-mern-stack/issues"
+  },
+  "homepage": "https://github.com/maeng2418/boilerplate-mern-stack#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
